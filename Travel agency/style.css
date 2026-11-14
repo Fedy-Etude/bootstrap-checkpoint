@@ -1,0 +1,87 @@
+:root {
+    --theme-primary: #047857; /* Deep African Green */
+    --theme-secondary: #d97706; /* Warm Gold Accent */
+    --theme-dark: #1c1917; /* Dark Earthy Brown */
+    --theme-light: #ecfdf5; /* Soft Mint */
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--theme-dark);
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar customization */
+.navbar {
+    background-color: var(--theme-dark) !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    color: var(--theme-secondary) !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Hero section */
+.hero-section {
+    height: 100vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('images/hero-bg.jpg') center/cover no-repeat;
+    color: white;
+}
+
+/* Destination cards */
+.destination-card {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.destination-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.destination-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Accordion customization */
+.accordion-button:not(.collapsed) {
+    background-color: var(--theme-light);
+    color: var(--theme-dark);
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    border-color: var(--theme-primary);
+    box-shadow: 0 0 0 0.25rem rgba(4, 120, 87, 0.25);
+}
+
+/* Footer */
+footer {
+    background-color: var(--theme-dark);
+    color: white;
+}
+
+footer a {
+    color: var(--theme-secondary);
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}

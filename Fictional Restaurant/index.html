@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Afrique Food Restaurant</title>
+
+        <!-- Bootstrap 5 CSS CDN -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet" />
+        <!-- Bootstrap Icons CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Header navbar section -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <!-- Restaurant name on the left -->
+                <a class="navbar-brand" href="#home">Afrique Food</a>
+
+                <!-- Toggler button for mobile view -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation links on the right -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Hero section -->
+            <section
+                id="home"
+                class="hero-section d-flex align-items-center justify-content-center text-center">
+                <div class="container">
+                    <h1 class="display-2 fw-bold mb-3">
+                        Welcome to Afrique Food
+                    </h1>
+                    <p class="lead mb-4 fs-4">
+                        Experience the authentic and vibrant taste of Africa in
+                        every single bite.
+                    </p>
+                    <a
+                        href="#menu"
+                        class="btn btn-warning btn-lg px-5 py-3 fw-bold shadow"
+                        >Discover Our Menu</a
+                    >
+                </div>
+            </section>
+
+            <!-- Menu section grid layout -->
+            <section id="menu" class="py-5 bg-light">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h2 class="display-5 fw-bold">Our Authentic Menu</h2>
+                        <p class="text-muted lead">
+                            Traditional dishes prepared with love and fresh
+                            ingredients.
+                        </p>
+                    </div>
+                    <div class="row g-4">
+                        <!-- Menu item 1 -->
+                        <div class="col-md-4">
+                            <div class="card menu-card h-100 shadow-sm">
+                                <img
+                                    src="images/Thieboudienne.jpg"
+                                    class="card-img-top"
+                                    alt="Thieboudienne" />
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title fw-bold">
+                                        Thiéboudienne
+                                    </h5>
+                                    <p class="card-text text-muted flex-grow-1">
+                                        The national dish of Senegal. Perfectly
+                                        cooked rice with fresh fish, vegetables,
+                                        and a rich tomato sauce.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center mt-3">
+                                        <span class="price-tag"
+                                            >4,500 FCFA</span
+                                        >
+                                        <a
+                                            href="#"
+                                            class="btn btn-outline-warning"
+                                            >Order Now</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Menu item 2 -->
+                        <div class="col-md-4">
+                            <div class="card menu-card h-100 shadow-sm">
+                                <img
+                                    src="images/Poulet Yassa.jpg"
+                                    class="card-img-top"
+                                    alt="Poulet Yassa" />
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title fw-bold">
+                                        Poulet Yassa
+                                    </h5>
+                                    <p class="card-text text-muted flex-grow-1">
+                                        Tender marinated chicken grilled to
+                                        perfection, served with caramelized
+                                        onions and fluffy white rice.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center mt-3">
+                                        <span class="price-tag"
+                                            >3,500 FCFA</span
+                                        >
+                                        <a
+                                            href="#"
+                                            class="btn btn-outline-warning"
+                                            >Order Now</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Menu item 3 -->
+                        <div class="col-md-4">
+                            <div class="card menu-card h-100 shadow-sm">
+                                <img
+                                    src="images/Mafe.jpg"
+                                    class="card-img-top"
+                                    alt="Mafe" />
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title fw-bold">Mafé</h5>
+                                    <p class="card-text text-muted flex-grow-1">
+                                        A rich and savory peanut butter stew
+                                        with tender beef, sweet potatoes, and
+                                        traditional spices.
+                                    </p>
+                                    <div
+                                        class="d-flex justify-content-between align-items-center mt-3">
+                                        <span class="price-tag"
+                                            >3,000 FCFA</span
+                                        >
+                                        <a
+                                            href="#"
+                                            class="btn btn-outline-warning"
+                                            >Order Now</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About us section 2 column -->
+            <section id="about" class="py-5">
+                <div class="container">
+                    <div class="row align-items-center g-5">
+                        <!-- Image column -->
+                        <div class="col-md-6">
+                            <img
+                                src="images/about.jpg"
+                                alt="Restaurant Interior"
+                                class="img-fluid about-img" />
+                        </div>
+                        <!-- Text column -->
+                        <div class="col-md-6">
+                            <h2 class="display-5 fw-bold mb-4">
+                                About Afrique Food
+                            </h2>
+                            <p class="lead text-muted">
+                                Inspired by the vibrant culinary traditions of
+                                West Africa, particularly the bustling streets
+                                of Dakar, Afrique Food is more than just a
+                                restaurant.
+                            </p>
+                            <p>
+                                We bring the warmth of African hospitality to
+                                your table. Our chefs use ancestral recipes and
+                                fresh, locally sourced ingredients to create
+                                dishes that tell a story. Whether you are
+                                joining us for a quick lunch or a large family
+                                fellowship, we guarantee an unforgettable
+                                culinary journey.
+                            </p>
+                            <a
+                                href="#contact"
+                                class="btn btn-warning btn-lg mt-3"
+                                >Reserve a Table</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact section form -->
+            <section id="contact" class="py-5 bg-light">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h2 class="display-5 fw-bold">Contact Us</h2>
+                        <p class="text-muted lead">
+                            Have a question or want to make a reservation? Send
+                            us a message!
+                        </p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <form class="row g-3 shadow p-4 bg-white rounded">
+                                <!-- Name field -->
+                                <div class="col-md-6">
+                                    <label for="inputName" class="form-label"
+                                        >Full Name</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="inputName"
+                                        placeholder="Oumar Diop"
+                                        required />
+                                </div>
+                                <!-- Email field -->
+                                <div class="col-md-6">
+                                    <label for="inputEmail" class="form-label"
+                                        >Email Address</label
+                                    >
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="inputEmail"
+                                        placeholder="oumar@example.com"
+                                        required />
+                                </div>
+                                <!-- Message field -->
+                                <div class="col-12">
+                                    <label for="inputMessage" class="form-label"
+                                        >Message</label
+                                    >
+                                    <textarea
+                                        class="form-control"
+                                        id="inputMessage"
+                                        rows="4"
+                                        placeholder="Tell us more about your needs..."
+                                        required></textarea>
+                                </div>
+                                <!-- Submit button -->
+                                <div class="col-12 text-center mt-4">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-warning btn-lg px-5 fw-bold">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer section -->
+        <footer class="py-4 text-center">
+            <div class="container">
+                <!-- Social media icons -->
+                <div class="mb-3">
+                    <a href="#" aria-label="Facebook"
+                        ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a href="#" aria-label="Instagram"
+                        ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a href="#" aria-label="Twitter"
+                        ><i class="bi bi-twitter-x"></i
+                    ></a>
+                    <a href="#" aria-label="WhatsApp"
+                        ><i class="bi bi-whatsapp"></i
+                    ></a>
+                </div>
+                <!-- Copyright information -->
+                <p class="mb-0 text-muted">
+                    &copy; 2026 Afrique Food. All Rights Reserved. | Designed
+                    with Bootstrap 5
+                </p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap 5 JS Bundle CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

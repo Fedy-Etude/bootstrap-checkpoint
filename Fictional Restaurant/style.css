@@ -1,0 +1,87 @@
+/* CSS Variables for Theme Colors */
+:root {
+    --theme-primary: #d97706; /* Warm African Orange/Gold */
+    --theme-dark: #292524; /* Dark Earthy Brown */
+    --theme-light: #fef3c7; /* Soft Sand */
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--theme-dark);
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar customization */
+.navbar {
+    background-color: var(--theme-dark) !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    color: var(--theme-primary) !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Hero section */
+.hero-section {
+    height: 100vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('images/hero-bg.jpg') center/cover no-repeat;
+    color: white;
+}
+
+/* Menu card */
+.menu-card {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.price-tag {
+    color: var(--theme-primary);
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+/* About section */
+.about-img {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: var(--theme-dark);
+    color: white;
+}
+
+footer a {
+    color: var(--theme-primary);
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
